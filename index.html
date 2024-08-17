@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" id="input" readonly />
+      <div class="number-container">
+        <div class="number-btns">
+          <button class="num-btn" onclick="addValue(1)">1</button>
+          <button class="num-btn" onclick="addValue(2)">2</button>
+          <button class="num-btn" onclick="addValue(3)">3</button>
+          <button class="num-btn del" onclick="delLast()">Del</button>
+          <button class="num-btn" onclick="addValue(4)">4</button>
+          <button class="num-btn" onclick="addValue(5)">5</button>
+          <button class="num-btn" onclick="addValue(6)">6</button>
+          <button class="num-btn" onclick="addValue('+')">+</button>
+          <button class="num-btn" onclick="addValue(7)">7</button>
+          <button class="num-btn" onclick="addValue(8)">8</button>
+          <button class="num-btn" onclick="addValue(9)">9</button>
+          <button class="num-btn" onclick="addValue('-')">-</button>
+          <button class="num-btn" onclick="addValue('.')">.</button>
+          <button class="num-btn" onclick="addValue('0')">0</button>
+          <button class="num-btn" onclick="addValue('/')">/</button>
+          <button class="num-btn" onclick="addValue('*')">x</button>
+          <button class="reset num-btn" onclick="reset()">Reset</button>
+          <button class="equal num-btn" onclick="calculateResult()">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
