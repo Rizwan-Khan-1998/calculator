@@ -97,6 +97,7 @@ body {
   }
   .num-btn {
     font-size: 18px;
+     height: 40px;
   }
   .reset,
   .equal {
