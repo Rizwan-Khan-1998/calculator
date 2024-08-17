@@ -87,7 +87,9 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
-
+   body {
+    padding: 10%;
+  }
   .number-btns {
     column-gap: 12px;
     row-gap: 12px;
